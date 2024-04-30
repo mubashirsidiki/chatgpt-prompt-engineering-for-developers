@@ -28,9 +28,6 @@ response = get_response("Write a poem about ChatGPT")
 print(response)
 
 
-# Set your API key
-client = OpenAI()
-
 # Craft a prompt that follows the instructions
 prompt = "Write a poem about ChatGPT. Use basic English that a child can understand."
 
@@ -43,9 +40,6 @@ print(response)
 story = "\nIn a distant galaxy, there was a brave space explorer named Alex. Alex had spent years traveling through the cosmos, discovering new planets and meeting alien species. One fateful day, while exploring an uncharted asteroid belt, Alex stumbled upon a peculiar object that would change the course of their interstellar journey forever...\n"
 
 
-# Set your API key
-client = OpenAI()
-
 # Create a prompt that completes the story
 prompt = f"""Complete the story delimited by triple backticks.
  ```{story}```"""
@@ -57,11 +51,8 @@ print("\n Original story: \n", story)
 print("\n Generated story: \n", response)
 
 
-# Set your API key
-client = OpenAI()
-
 # Create a request to complete the story
-prompt = f"""Complete the story delimited by triple backticks with only two paragraphs using the style of William Shakespeare. 
+prompt = f"""Complete the story delimited by triple backticks with only two paragraphs using the style of William Shakespeare.
  ```{story}```"""
 
 # Get the generated response
@@ -70,9 +61,6 @@ response = get_response(prompt)
 print("\n Original story: \n", story)
 print("\n Generated story: \n", response)
 
-
-# Set your API key
-client = OpenAI()
 
 # Create a prompt that generates the table
 prompt = "Generate a table containing 10 books I should read if I am a sci-fi lover, with columns for Title, Author, and Year."
@@ -84,9 +72,6 @@ print(response)
 # added/edited
 text = "The sun was setting behind the mountains, casting a warm golden glow across the landscape. Birds were chirping happily, and a gentle breeze rustled the leaves of the trees. It was a perfect evening for a leisurely stroll in the park"
 
-
-# Set your API key
-client = OpenAI()
 
 # Create the instructions
 instructions = "You will be provided with a text delimited by triple backticks. Infer its language, then generate a suitable title for it. "
@@ -105,9 +90,6 @@ print(response)
 # added/edited
 text = "The sun was setting behind the mountains, casting a warm golden glow across the landscape."
 
-
-# Set your API key
-client = OpenAI()
 
 # Create the instructions
 instructions = "You will be provided with a text delimited by triple backticks. Infer its language and the number of sentences it contains. Then, if the text has more than one sentence, generate a suitable title for it. Otherwise, if the text contains only one sentence, write 'N/A' for the title."

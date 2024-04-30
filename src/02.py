@@ -1,5 +1,26 @@
+# added/edited
+import os
+
+import openai
+from dotenv import load_dotenv
+from openai import OpenAI
+
+load_dotenv()
+openai.api_key = os.environ["OPENAI_API_KEY"]
+
 # Set your API key
 client = OpenAI()
+
+
+def get_response(prompt):
+    messages = [{"role": "user", "content": prompt}]
+    response = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=messages,
+        temperature=0,
+    )
+    return response.choices[0].message.content
+
 
 # Create a one-shot prompt
 prompt = """
@@ -10,9 +31,6 @@ prompt = """
 response = get_response(prompt)
 print(response)
 
-
-# Set your API key
-client = OpenAI()
 
 response = client.chat.completions.create(
     model="gpt-3.5-turbo",
@@ -36,18 +54,12 @@ response = client.chat.completions.create(
 print(response.choices[0].message.content)
 
 
-# Set your API key
-client = OpenAI()
-
 # Create a single-step prompt to get help planning the vacation
 prompt = "Help me plan a beach vacation."
 
 response = get_response(prompt)
 print(response)
 
-
-# Set your API key
-client = OpenAI()
 
 # Create a prompt detailing steps to plan the trip
 prompt = """
@@ -61,9 +73,6 @@ prompt = """
 response = get_response(prompt)
 print(response)
 
-
-# Set your API key
-client = OpenAI()
 
 code = """
 def calculate_rectangle_area(length, width):
@@ -84,18 +93,12 @@ response = get_response(prompt)
 print(response)
 
 
-# Set your API key
-client = OpenAI()
-
 # Create the chain-of-thought prompt
 prompt = "Compute the age of my friend's father in 10 years, given that now he's double my friend's age, and my friend is 20. Give a step by step explanation."
 
 response = get_response(prompt)
 print(response)
 
-
-# Set your API key
-client = OpenAI()
 
 # Define the example
 example = """Q: Sum the even numbers in the following set: {9, 10, 13, 4, 2}.
@@ -111,9 +114,6 @@ response = get_response(prompt)
 print(response)
 
 
-# Set your API key
-client = OpenAI()
-
 # Create the self_consistency instruction
 self_consistency_instruction = "Imagine three completely independent experts who reason differently are answering this question. The final answer is obtained by majority vote. The question is: "
 
@@ -127,18 +127,12 @@ response = get_response(prompt)
 print(response)
 
 
-# Set your API key
-client = OpenAI()
-
 # Refine the following prompt
 prompt = "Generate a table that contains the top 10 pre-trained language models, with columns for language model, release year, and owners."
 
 response = get_response(prompt)
 print(response)
 
-
-# Set your API key
-client = OpenAI()
 
 # Refine the following prompt
 prompt = """

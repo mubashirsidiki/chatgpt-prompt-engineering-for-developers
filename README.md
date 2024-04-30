@@ -12,7 +12,7 @@ best practices of prompt engineering. By the end, you'll have the skills and
 knowledge to write effective prompts to solve real-world problems and business
 applications.
 
-# Instructor
+## Instructor
 
 Fouad Trad
 
