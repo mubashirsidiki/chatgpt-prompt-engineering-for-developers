@@ -1,8 +1,9 @@
 # added/edited
+import os
+
+import openai
 from dotenv import load_dotenv
 from openai import OpenAI
-import os
-import openai
 
 load_dotenv()
 openai.api_key = os.environ["OPENAI_API_KEY"]
@@ -46,7 +47,7 @@ story = "\nIn a distant galaxy, there was a brave space explorer named Alex. Ale
 client = OpenAI()
 
 # Create a prompt that completes the story
-prompt = f"""Complete the story delimited by triple backticks. 
+prompt = f"""Complete the story delimited by triple backticks.
  ```{story}```"""
 
 # Get the generated response
