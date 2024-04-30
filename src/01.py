@@ -1,4 +1,3 @@
-# added/edited
 import os
 
 import openai
@@ -33,12 +32,11 @@ prompt = "Write a poem about ChatGPT. Use basic English that a child can underst
 
 # Get the response
 response = get_response(prompt)
-
 print(response)
+
 
 # added/edited
 story = "\nIn a distant galaxy, there was a brave space explorer named Alex. Alex had spent years traveling through the cosmos, discovering new planets and meeting alien species. One fateful day, while exploring an uncharted asteroid belt, Alex stumbled upon a peculiar object that would change the course of their interstellar journey forever...\n"
-
 
 # Create a prompt that completes the story
 prompt = f"""Complete the story delimited by triple backticks.
@@ -46,7 +44,6 @@ prompt = f"""Complete the story delimited by triple backticks.
 
 # Get the generated response
 response = get_response(prompt)
-
 print("\n Original story: \n", story)
 print("\n Generated story: \n", response)
 
@@ -57,7 +54,6 @@ prompt = f"""Complete the story delimited by triple backticks with only two para
 
 # Get the generated response
 response = get_response(prompt)
-
 print("\n Original story: \n", story)
 print("\n Generated story: \n", response)
 
@@ -69,9 +65,9 @@ prompt = "Generate a table containing 10 books I should read if I am a sci-fi lo
 response = get_response(prompt)
 print(response)
 
+
 # added/edited
 text = "The sun was setting behind the mountains, casting a warm golden glow across the landscape. Birds were chirping happily, and a gentle breeze rustled the leaves of the trees. It was a perfect evening for a leisurely stroll in the park"
-
 
 # Create the instructions
 instructions = "You will be provided with a text delimited by triple backticks. Infer its language, then generate a suitable title for it. "
@@ -87,9 +83,9 @@ prompt = instructions + output_format + f"```{text}```"
 response = get_response(prompt)
 print(response)
 
+
 # added/edited
 text = "The sun was setting behind the mountains, casting a warm golden glow across the landscape."
-
 
 # Create the instructions
 instructions = "You will be provided with a text delimited by triple backticks. Infer its language and the number of sentences it contains. Then, if the text has more than one sentence, generate a suitable title for it. Otherwise, if the text contains only one sentence, write 'N/A' for the title."

@@ -1,4 +1,3 @@
-# added/edited
 import os
 
 import openai
@@ -57,7 +56,7 @@ product_description = '\nProduct: "Smart Home Security Camera"\n- High-tech secu
 
 # Craft a prompt to expand the product's description
 prompt = f"""
-Expand the product description for the Smart Home Security Camera delimited by triple backticks to provide a comprehensive overview of its features, benefits, potential applications, without bypassing the limit of one paragraph. 
+Expand the product description for the Smart Home Security Camera delimited by triple backticks to provide a comprehensive overview of its features, benefits, potential applications, without bypassing the limit of one paragraph.
  ```{product_description}```
 """
 
