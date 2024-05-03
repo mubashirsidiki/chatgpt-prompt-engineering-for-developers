@@ -40,10 +40,10 @@
 
 ## Prompt Engineering for Chatbot Development
 
-- Creating a dual-prompt get_response() function
-- Customer support chatbot
-- Behavioral control of a customer support chatbot
-- Learning advisor chatbot
-- Adding guidelines for the learning advisor chatbot
-- Providing context through sample conversations
-- Providing context through system prompt
+- [Creating a dual-prompt get_response() function](creating_a_dual_prompt_get_response_function.py)
+- [Customer support chatbot](customer_support_chatbot.py)
+- [Behavioral control of a customer support chatbot](behavioral_control_of_a_customer_support_chatbot.py)
+- [Learning advisor chatbot](learning_advisor_chatbot.py)
+- [Adding guidelines for the learning advisor chatbot](adding_guidelines_for_the_learning_advisor_chatbot.py)
+- [Providing context through sample conversations](providing_context_through_sample_conversations.py)
+- [Providing context through system prompt](providing_context_through_system_prompt.py)
