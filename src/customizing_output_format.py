@@ -23,18 +23,18 @@ def get_response(prompt):
 
 
 # added/edited
-text = "The sun was setting behind the mountains, casting a warm golden glow across the landscape."
+text = "The sun was setting behind the mountains, casting a warm golden glow across the landscape. Birds were chirping happily, and a gentle breeze rustled the leaves of the trees. It was a perfect evening for a leisurely stroll in the park"
 
 # Create the instructions
-instructions = "You will be provided with a text delimited by triple backticks. Infer its language and the number of sentences it contains. Then, if the text has more than one sentence, generate a suitable title for it. Otherwise, if the text contains only one sentence, write 'N/A' for the title."
+instructions = "You will be provided with a text delimited by triple backticks. Infer its language, then generate a suitable title for it. "
 
 # Create the output format
-output_format = """The output should follow this format:
-          - Text: <the given text>
-          - Language: <the text language>
-          - N_sentences: <number of sentences>
-          - Title: <the generated title>'."""
+output_format = """Use the following format for the output:
+         - Text: <the text>
+         - Language: <the text language>
+         - Title: <the generated title>"""
 
+# Create the final prompt
 prompt = instructions + output_format + f"```{text}```"
 response = get_response(prompt)
 print(response)

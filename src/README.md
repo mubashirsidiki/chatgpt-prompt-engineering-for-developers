@@ -3,12 +3,12 @@
 ## Introduction to Prompt Engineering Best Practices
 
 - [Creating the get_response() function](creating_the_get_response_function.py)
-- Exploring prompt engineering
-- Using delimited prompts with f-strings
-- Building specific and precise prompts
-- Generating a table
-- Customizing output format
-- Using conditional prompts
+- [Exploring prompt engineering](exploring_prompt_engineering.py)
+- [Using delimited prompts with f-strings](using_delimited_prompts_with_f_strings.py)
+- [Building specific and precise prompts](building_specific_and_precise_prompts.py)
+- [Generating a table](generating_a_table.py)
+- [Customizing output format](customizing_output_format.py)
+- [Using conditional prompts](using_conditional_prompts.py)
 
 ## Advanced Prompt Engineering Strategies
 
