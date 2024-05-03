@@ -25,16 +25,16 @@
 
 ## Prompt Engineering for Business Applications
 
-- Market research report summarization
-- Product features summarization
-- Product description expansion
-- Translation for multilingual communication
-- Tone adjustment for email marketing
-- Writing improvement
-- Customer support ticket routing
-- Customer support ticket analysis
-- Code generation with problem description
-- Input-output examples for code generation
+- [Market research report summarization](market_research_report_summarization.py)
+- [Product features summarization](product_features_summarization.py)
+- [Product description expansion](product_description_expansion.py)
+- [Translation for multilingual communication](translation_for_multilingual_communication.py)
+- [Tone adjustment for email marketing](tone_adjustment_for_email_marketing.py)
+- [Writing improvement](writing_improvement.py)
+- [Customer support ticket routing](customer_support_ticket_routing.py)
+- [Customer support ticket analysis](customer_support_ticket_analysis.py)
+- [Code generation with problem description](code_generation_with_problem_description.py)
+- [Input-output examples for code generation](input_output_examples_for_code_generation.py)
 - Modifying code with multi-step prompts
 - Explaining code step by step
 
