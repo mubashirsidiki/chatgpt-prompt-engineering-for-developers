@@ -19,7 +19,7 @@
 - [Analyze solution correctness](analyze_solution_correctness.py)
 - [Reasoning with chain-of-thought prompts](reasoning_with_chain_of_thought_prompts.py )
 - [One-shot chain-of-thought prompts](one_shot_chain_of_thought_prompts.py)
-- Self-consistency prompts
+- [Self-consistency prompts](self_consistency_prompts.py )
 - Iterative prompt engineering for standard prompts
 - Iterative prompt engineering for few-shot prompts
 
