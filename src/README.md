@@ -15,11 +15,11 @@
 - [Controlling output structure](controlling_output_structure.py)
 - [Sentiment analysis with few-shot prompting](sentiment_analysis_with_few_shot_prompting.py)
 - [Single-step prompt to plan a trip](single_step_prompt_to_plan_a_trip.py)
-- [Multi-step prompt to plan a trip](multi_step_prompt_to_plan_a_trip.py )
+- [Multi-step prompt to plan a trip](multi_step_prompt_to_plan_a_trip.py)
 - [Analyze solution correctness](analyze_solution_correctness.py)
-- [Reasoning with chain-of-thought prompts](reasoning_with_chain_of_thought_prompts.py )
+- [Reasoning with chain-of-thought prompts](reasoning_with_chain_of_thought_prompts.py)
 - [One-shot chain-of-thought prompts](one_shot_chain_of_thought_prompts.py)
-- [Self-consistency prompts](self_consistency_prompts.py )
+- [Self-consistency prompts](self_consistency_prompts.py)
 - [Iterative prompt engineering for standard prompts](iterative_prompt_engineering_for_standard_prompts.py)
 - [Iterative prompt engineering for few-shot prompts](iterative_prompt_engineering_for_few_shot_prompts.py)
 
@@ -35,8 +35,8 @@
 - [Customer support ticket analysis](customer_support_ticket_analysis.py)
 - [Code generation with problem description](code_generation_with_problem_description.py)
 - [Input-output examples for code generation](input_output_examples_for_code_generation.py)
-- Modifying code with multi-step prompts
-- Explaining code step by step
+- [Modifying code with multi-step prompts](modifying_code_with_multi_step_prompts.py)
+- [Explaining code step by step](explaining_code_step_by_step.py)
 
 ## Prompt Engineering for Chatbot Development
 
