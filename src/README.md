@@ -16,9 +16,9 @@
 - [Sentiment analysis with few-shot prompting](sentiment_analysis_with_few_shot_prompting.py)
 - [Single-step prompt to plan a trip](single_step_prompt_to_plan_a_trip.py)
 - [Multi-step prompt to plan a trip](multi_step_prompt_to_plan_a_trip.py )
-- Analyze solution correctness
-- Reasoning with chain-of-thought prompts
-- One-shot chain-of-thought prompts
+- [Analyze solution correctness](analyze_solution_correctness.py)
+- [Reasoning with chain-of-thought prompts](reasoning_with_chain_of_thought_prompts.py )
+- [One-shot chain-of-thought prompts](one_shot_chain_of_thought_prompts.py)
 - Self-consistency prompts
 - Iterative prompt engineering for standard prompts
 - Iterative prompt engineering for few-shot prompts
