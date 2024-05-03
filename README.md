@@ -1,5 +1,7 @@
 # ChatGPT Prompt Engineering for Developers
 
+[![Open in Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/datttrian/chatgpt-prompt-engineering-for-developers/blob/main/src/notebook.ipynb)
+
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/datttrian/chatgpt-prompt-engineering-for-developers)
 
 ![Clear as Data](http://drive.google.com/uc?export=view&id=1PJVtMhPE_h3g2c9wXm9tf6_pIhvMyDRI)
