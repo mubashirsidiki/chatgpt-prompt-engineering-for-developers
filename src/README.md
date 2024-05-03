@@ -12,10 +12,10 @@
 
 ## Advanced Prompt Engineering Strategies
 
-- Controlling output structure
-- Sentiment analysis with few-shot prompting
-- Single-step prompt to plan a trip
-- Multi-step prompt to plan a trip
+- [Controlling output structure](controlling_output_structure.py)
+- [Sentiment analysis with few-shot prompting](sentiment_analysis_with_few_shot_prompting.py)
+- [Single-step prompt to plan a trip](single_step_prompt_to_plan_a_trip.py)
+- [Multi-step prompt to plan a trip](multi_step_prompt_to_plan_a_trip.py )
 - Analyze solution correctness
 - Reasoning with chain-of-thought prompts
 - One-shot chain-of-thought prompts
