@@ -27,7 +27,8 @@ Receiving a promotion at work made me feel on top of the world -> Happiness
 The movie's ending left me with a heavy feeling in my chest -> Sadness
 Walking alone in the dark alley sent shivers down my spine -> Fear
 School begins tomorrow -> No explicit emotion
-Time flies like an arrow ->
+He painted the fence blue -> No explicit emotion
+They sat and ate their meal ->
 """
 
 response = get_response(prompt)
